@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(19, 10, 59);
+    font-size: 24px;
+    /* margin-top: 0px; */
+}
+
+main {
+    width: 1024px;
+    margin: 40 px auto;
+    /* margin: 40px 80px; */
+    background-color: rgb(65, 42, 165);
+}
+
+section {
+    background-color: rgb(19, 10, 59);
+    min-height: 380px;
+    border: 1px solid rgb(65, 42, 165);
+    margin: 56px 0px;
+}
+
+    article {
+        width: 128px;
+        height: 96px;
+        background-color: rgb(102, 84, 179);
+    }
+
+#section1 {
+    display: flex;
+    /* horizontal */
+    /* justify-content: center; */
+    justify-content: space-between;
+     /*vertical  */
+    align-items: center;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

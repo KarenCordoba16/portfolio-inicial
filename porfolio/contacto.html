@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+
+        <form action="php/codigo.php" method="post"> <!--- enctype para adjuntar archivos -->
+            <label for="nombre">
+                Nombre 
+                <input name="nombre" id="nombre" minlength="5" maxlength="15"placeholder="Nombre y apellido">  
+            </label>
+            <br>
+            <label>
+                Email
+                <input type="email" name="email" required placeholder="info@dominio.com">
+                <span>*</span>
+            </label>
+            <br>
+            <label>
+                Provincia
+                <select name="provincia">
+                    <option value="Salta" selected>Salta</option>
+                    <option value="Tucuman">Tucuman</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                <textarea name="consulta" cols="30" rows="10"></textarea>
+            </label>
+            
+            <br>
+
+            <input type="radio" value="si" checked name="opcion"> <!-- parecido al checkbox -->
+            <input type="radio" value="no" name="opcion">
+
+            <!-- <label>
+                Teléfono
+                <input min="10" max="20" type="tel" pattern="">
+            </label> -->
+            
+            <input type="submit" value="Enviar"><input type="reset" value="Borrar">
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.267612917384!2d-57.549558624687265!3d
+        -37.99421794437182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc06ae480165%3A0x741adcf3663d58a6!2
+        sHip%C3%B3lito%20Yrigoyen%201249%2C%20B7600%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1se
+        s-419!2sar!4v1755561696511!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <br>
+        <iframe controls name="video-musical" width="560" height="315" src="https://www.youtube.com/embed/9eW5zIOCjOw?si=iUcd9cCEjMM7L2-x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            
+        </iframe>
+
+    </main>
+
+</body>
+</html>
